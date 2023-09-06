@@ -8,8 +8,8 @@ int main() {
     int testOfInt = 24;  // %d
     char testOfChar = 'a'; // %c
     char testOfString[] = "What is happening bro?"; // %s
-    float testOfFloat = 3.14; // %f - 4 Bite
-    double testOfDouble = 3.14159265358979323846; // %lf - 8 Bite    
+    float testOfFloat = 3.14; // %f - 4 Bytes
+    double testOfDouble = 3.14159265358979323846; // %lf - 8 Bytes    
     bool testOfBool = true; 
 
 // More specific types of variables available in C. 
