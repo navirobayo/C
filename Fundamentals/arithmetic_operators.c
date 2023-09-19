@@ -37,6 +37,12 @@ int main() {
     printf("Finally c++ = %d\n", c);
     printf("And d-- = %d\n", d);
 
+    int y = 7;
+    int x = 2;
+
+    int remainder2 = y % x;
+    printf("El remainder de y / x es %d\n", remainder2);
+
 
     return 0;
 }

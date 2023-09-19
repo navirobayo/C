@@ -16,23 +16,29 @@ int main() {
 
     //****************************************************************************************
 
+    printf("English starts here:\n");
     printf("The result is %f\n", result1); // 5.400000
     printf("The result is %.2f\n", result1); // 5.40
     printf("The result is %d\n", result2); // 5
-
     printf("With spaces:\n");
-
     printf("The result is %8f\n", result1); // 5.400000
     printf("The result is %8.2f\n", result1); // 5.40
     printf("The result is %8d\n", result2); // 5
-
     printf("Left alligned:\n");
-
     printf("The result is %-8f\n", result1); // 5.400000
     printf("The result is %-8.2f\n", result1); // 5.40
     printf("The result is %-8d\n", result2); // 5
-
     printf("Finally a constant is %f\n", PI); // 3.140000
+
+    printf("Español inicia acá:\n");
+
+    float miFlotante = 7;
+    float miFlotante2 = 2;
+    float miEntero = miFlotante / miFlotante2;
+
+    printf("El resultado es %20.2f", miEntero); // 13.500000
+    printf("Prueba");
+
 
     
 }
